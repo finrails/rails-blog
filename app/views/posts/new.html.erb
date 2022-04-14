@@ -1,0 +1,11 @@
+
+<section id="new-post-form">
+  <h3>Create a new post:</h3>
+  <%= form_with model: @post do |form| %>
+      <%= form.label :author, 'Author name' %>
+      <%= form.text_field :author %>
+      <%= form.label :title, 'Post title' %>
+      <%= form.text_field :title %>
+      <%= form.submit 'Touch it!' %>
+  <% end %>
+</section>

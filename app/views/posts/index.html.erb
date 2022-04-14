@@ -1,2 +1,12 @@
-<h2>All posts above</h2>
-<p>Here go all posts.</p>
+<div class="posts-index-view">
+  <h2>All posts above</h2>
+  <ul>
+    <% @posts.each do |post| %>
+    <div class='post-container'>
+        <li>Author: <%= post.author %></li>
+        <li>Title :<%= post.title %></li>
+        <%= post.body %>
+    </div>
+    <% end %>
+  </ul>
+</div>

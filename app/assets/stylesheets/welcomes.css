@@ -41,3 +41,36 @@ a {
   border: none;
   text-decoration: none;
 }
+#new-post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: calc(10% + 100px);
+}
+.posts-index-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  display: flex;
+}
+
+input[type="submit"] {
+  margin-top: 12px;
+  cursor: pointer;
+  padding: 8px;
+}
+input[type="text"] {
+  padding: 4px;
+}
+h3 {
+  margin-bottom: 12px;
+}
