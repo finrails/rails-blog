@@ -1,0 +1,10 @@
+<%= form_with model: @post do |form| %>
+  <%= form.label :author %>
+  <%= form.text_field :author %>
+  <%= form.label :title %>
+  <%= form.text_field :title %>
+  <%= form.text_area :body, class: 'special-form' %>
+  <%= form.submit 'Touch it!' %>
+
+  <%= link_to 'Cancel', posts_path %>
+<% end %>
