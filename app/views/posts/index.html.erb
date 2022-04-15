@@ -2,11 +2,7 @@
   <h2>All posts above</h2>
   <ul>
     <% @posts.each do |post| %>
-    <div class='post-container'>
-        <li>Author: <%= post.author %></li>
-        <li>Title :<%= post.title %></li>
-        <%= post.body %>
-    </div>
+        <li>Title: <%= link_to post.title, post_path(post), class: 'user-post-title' %></li>
     <% end %>
   </ul>
 </div>

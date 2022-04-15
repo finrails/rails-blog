@@ -59,10 +59,13 @@ form {
   align-items: center;
   justify-content: center;
 }
-li {
+ul {
   display: flex;
 }
-
+.user-post-title {
+  background-color: transparent;
+  color: black;
+}
 input[type="submit"] {
   margin-top: 12px;
   cursor: pointer;
