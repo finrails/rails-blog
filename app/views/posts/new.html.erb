@@ -2,10 +2,14 @@
 <section id="new-post-form">
   <h3>Create a new post:</h3>
   <%= form_with model: @post do |form| %>
-      <%= form.label :author, 'Author name' %>
+      <%= form.label :author %>
       <%= form.text_field :author %>
-      <%= form.label :title, 'Post title' %>
+      <%= form.label :title %>
       <%= form.text_field :title %>
+      <%= form.label :body %>
+      <%= form.text_area :body %>
       <%= form.submit 'Touch it!' %>
   <% end %>
+
+  <%= link_to 'Cancel', posts_path %>
 </section>

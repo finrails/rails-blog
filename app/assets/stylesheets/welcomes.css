@@ -66,6 +66,10 @@ ul {
   background-color: transparent;
   color: black;
 }
+.posts-list-container {
+  display: flex;
+  flex-direction: column;
+}
 input[type="submit"] {
   margin-top: 12px;
   cursor: pointer;

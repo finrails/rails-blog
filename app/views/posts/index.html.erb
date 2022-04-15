@@ -1,8 +1,9 @@
 <div class="posts-index-view">
   <h2>All posts above</h2>
-  <ul>
+  <ul class='posts-list-container'>
     <% @posts.each do |post| %>
         <li>Title: <%= link_to post.title, post_path(post), class: 'user-post-title' %></li>
     <% end %>
   </ul>
+  <%= link_to 'New Post', new_post_path %>
 </div>
