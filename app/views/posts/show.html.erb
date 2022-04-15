@@ -9,7 +9,25 @@
   </div>
 
   <div class="comments-container">
-    <h4>Comments</h4>
+    <h4 class="new-comment-title">Comments</h4>
+    <% @post.comments.each do |comment| %>
+      <p>
+        Author: <%= comment.author %>
+      </p>
+      <p>
+        Comment: <%= comment.body %>
+      </p>
+    <% end %>
+  </div>
+  <div class="new-comment-container">
+    <h4>New Comment</h4>
+    <%= form_with model: [ @post, @post.comments.build ] do |form| %>
+      <%= form.label :author %>
+      <%= form.text_field :author %>
+      <%= form.label :body %>
+      <%= form.text_area :body %>
+      <%= form.submit %>
+    <% end %>
   </div>
 </div>
 

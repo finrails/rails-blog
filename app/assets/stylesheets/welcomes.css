@@ -69,6 +69,26 @@ ul {
   font-size: 18px;
   text-decoration: none;
 }
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new-comment-container {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.new-comment-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 68px;
+  padding-right: 68px;
+  border-bottom: 1px black solid;
+  font-weight: 500;
+  user-select: none;
+}
 .options-container {
   margin-top: 16px;
 }
