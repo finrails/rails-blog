@@ -1,0 +1,17 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_UNEXPECTED_VIRTUAL_STORE",
+    "expected": "/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm",
+    "actual": "/home/fin/.asdf/installs/nodejs/lts/.npm/pnpm-global/5/node_modules/.pnpm",
+    "modulesDir": "/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules",
+    "err": {
+      "name": "pnpm",
+      "message": "Unexpected virtual store location",
+      "code": "ERR_PNPM_UNEXPECTED_VIRTUAL_STORE",
+      "stack": "pnpm: Unexpected virtual store location\n    at checkCompatibility (/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:91562:15)\n    at /home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:92077:44\n    at Array.map (<anonymous>)\n    at validateModules (/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:92075:34)\n    at getContext (/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:91973:34)\n    at async mutateModules (/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:119629:19)\n    at async handler (/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:121952:33)\n    at async /home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182194:21\n    at async run (/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182168:34)\n    at async runPnpm (/home/fin/.asdf/installs/nodejs/16.14.0/.npm/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182387:5)"
+    }
+  }
+}
